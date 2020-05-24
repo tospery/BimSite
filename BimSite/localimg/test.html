@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>测试</title>
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+<input type="file" id='file'; onchange="c()"  accept="image/*;capture=camera">
+<button onclick="showPic()">显示图片</button>
+<img src="" id='show'>
+<script type="text/javascript">
+    		function c () {
+    			var r= new FileReader();
+    			f=document.getElementById('file').files[0];
+			    var fileName=f.name;
+    			r.readAsDataURL(f);
+    			r.onload=function  (e) {
+    				//document.getElementById('show').src=this.result;
+    				sendBase64Str(this.result,fileName,'QualityProblem');
+    			};
+    		}
+
+			function isiOSClient(){
+				var u = navigator.userAgent;
+				var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+				return isiOS;
+			}
+
+
+
+    		var base64StrShow='';
+            var isFirst=true;
+    		//向App传送Base64编码（H5js调用原生方法，传递参数给原生）entryName:SecurityQuestion 安全问题QualityProblem：质量问题
+    		function sendBase64Str(base64Str,fileName,entryName){
+    			if (isiOSClient())
+					location.href = "rrcc://addBase64StrAndFileName?"+ base64Str + "&" + fileName+"&"+entryName+"&"+isFirst;
+				else
+					BimSiteInterface.addBase64StrAndFileName(base64Str,fileName,entryName,isFirst);
+
+				isFirst=false;
+    		}
+
+    		//（H5js调用原生方法，开启读取读取缓存图片base64编码流程）
+    		function showPic(){
+    		    var entryName='QualityProblem';
+    			if (isiOSClient())
+					location.href = "rrcc://getBase64Str?"+entryName;
+				else
+					BimSiteInterface.getBase64Str(entryName);
+    		}
+
+    		//拼接base64编码（原生调用H5js）
+			function appendBase64Str(base64Str){
+				base64StrShow+=base64Str;
+			}
+
+
+			//完成一个base64编码传输，传送名字过来（原生调用H5js）
+			function finishBase64Trans(fileName){
+				//alert("《"+fileName+"》传输完毕，开始展示");
+				//document.getElementById('show').src=base64StrShow;
+				upLoadPic(base64StrShow,fileName);
+			}
+
+            //完成所有文件传输完毕
+            function finishAllTrans(){
+                //alert("传输完毕咯");
+            }
+
+			//上传图片（h5自己调用）
+			function upLoadPic(base64Str,fileName){
+				base64StrShow='';
+    			var length=base64Str.length;
+				var end=base64Str.indexOf("base64,")+7;
+
+				//alert("文件上传名字:"+fileName+"|"+base64Str.substring(0,end));
+                //alert(base64Str);
+				base64Str=base64Str.substring(end,length);
+
+				$.post("http://182.150.20.168:8111/SimuBimSiteApp/BIMSiteService.asmx/AppUpLoadFile",
+				{
+					token:'055e62a734bd09368c81ccaed944d5a1',
+					fileName:fileName,
+					base64Str:base64Str
+				},function(data,status){
+					var string=data.getElementsByTagName('string');
+					//alert(string[0].innerHTML);
+					var json=JSON.parse(string[0].innerHTML);
+					if(json.Status=="F"){
+						alert(json.StatusDesc);
+						return;
+					}else{
+						alert(json.Result[0].FileId);
+					}
+				});
+			}
+
+    	</script>
+</body>
+</html>

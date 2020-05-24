@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B83C7A21F3F3D2C00181DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7A11F3F3D2C00181DF5 /* main.m */; };
+		1B83C7A51F3F3D2C00181DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7A41F3F3D2C00181DF5 /* AppDelegate.m */; };
+		1B83C7AE1F3F3D2C00181DF5 /* BimSite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7AC1F3F3D2C00181DF5 /* BimSite.xcdatamodeld */; };
+		1B83C7B01F3F3D2C00181DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B83C7AF1F3F3D2C00181DF5 /* Assets.xcassets */; };
+		1B83C7B31F3F3D2C00181DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B83C7B11F3F3D2C00181DF5 /* LaunchScreen.storyboard */; };
+		1B83C7BE1F3F3D2C00181DF5 /* BimSiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7BD1F3F3D2C00181DF5 /* BimSiteTests.m */; };
+		1B83C7C91F3F3D2C00181DF5 /* BimSiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7C81F3F3D2C00181DF5 /* BimSiteUITests.m */; };
+		1B83C7DD1F403CF700181DF5 /* BSIPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7DC1F403CF700181DF5 /* BSIPhoneViewController.m */; };
+		1B83C7E01F403D1F00181DF5 /* BSIPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7DF1F403D1F00181DF5 /* BSIPadViewController.m */; };
+		1B83C7E31F40564100181DF5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7E21F40564100181DF5 /* HomeViewController.m */; };
+		1B83C7EA1F405E7C00181DF5 /* UIColor+BSUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7E91F405E7C00181DF5 /* UIColor+BSUIColor.m */; };
+		1B83C7ED1F4097C300181DF5 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7EC1F4097C300181DF5 /* ModelViewController.m */; };
+		1B83C7F01F4097DC00181DF5 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7EF1F4097DC00181DF5 /* QueryViewController.m */; };
+		1B83C7F31F40987C00181DF5 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7F21F40987C00181DF5 /* SettingViewController.m */; };
+		1B83C7F51F41EB3400181DF5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B83C7F41F41EB3400181DF5 /* Login.storyboard */; };
+		1B83C7F81F41F9A300181DF5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C7F71F41F9A300181DF5 /* LoginViewController.m */; };
+		1B83C8641F4B409F00181DF5 /* CommonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83C8631F4B409F00181DF5 /* CommonWebViewController.m */; };
+		1B845CB51F7555FE00556A95 /* HSDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B845CAF1F7555FE00556A95 /* HSDownloadManager.m */; };
+		1B845CB61F7555FE00556A95 /* HSSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B845CB11F7555FE00556A95 /* HSSessionModel.m */; };
+		1B845CB71F7555FE00556A95 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B845CB41F7555FE00556A95 /* NSString+Hash.m */; };
+		1BE9BDE31F762BB300CAB2AF /* GLCustomURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9BDE21F762BB300CAB2AF /* GLCustomURLCache.m */; };
+		1BE9BDE61F762F7500CAB2AF /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9BDE51F762F7500CAB2AF /* Util.m */; };
+		1BE9BDE91F7630C000CAB2AF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9BDE81F7630C000CAB2AF /* Reachability.m */; };
+		1BFB3ECA1F4F23B700F13041 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB3EC91F4F23B700F13041 /* AboutViewController.m */; };
+		1BFB402E1F5117CB00F13041 /* SoapClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB402D1F5117CB00F13041 /* SoapClientManager.m */; };
+		1BFB40311F51DD9D00F13041 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40301F51DD9D00F13041 /* BaseModel.m */; };
+		1BFB40341F5258EE00F13041 /* ResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40331F5258ED00F13041 /* ResultModel.m */; };
+		1BFB40371F525BF100F13041 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40361F525BF100F13041 /* UserInfoModel.m */; };
+		1BFB403A1F52624800F13041 /* LoginResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40391F52624800F13041 /* LoginResultModel.m */; };
+		1BFB403D1F532C4E00F13041 /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB403C1F532C4E00F13041 /* AppModel.m */; };
+		1BFB40411F571FD700F13041 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40401F571FD700F13041 /* UserService.m */; };
+		1BFB40511F5AB18200F13041 /* QrcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40501F5AB18200F13041 /* QrcodeViewController.m */; };
+		1BFB40541F5AFAEF00F13041 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB40531F5AFAEF00F13041 /* LaunchViewController.m */; };
+		793822A01FA01B77006F96E7 /* NSURLRequest+BimSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7938229F1FA01B77006F96E7 /* NSURLRequest+BimSite.m */; };
+		794336811FDA79370041D247 /* Android_3DAir.zip in Resources */ = {isa = PBXBuildFile; fileRef = 794336801FDA79370041D247 /* Android_3DAir.zip */; };
+		794D0FB61F77B4F600BD44F2 /* ChangeUserSendData.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D0FB51F77B4F600BD44F2 /* ChangeUserSendData.m */; };
+		7966F4551F774EED00511E4A /* TodoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7966F4541F774EED00511E4A /* TodoModel.m */; };
+		7987E40D1F94DB0300A0753B /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7987E40C1F94DB0300A0753B /* UserInfo.m */; };
+		79CE83D11F987DEE0059A4DF /* localimg in Resources */ = {isa = PBXBuildFile; fileRef = 79CE83D01F987DEE0059A4DF /* localimg */; };
+		79D18C9F1F8F8C28007C444B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 79D18C9E1F8F8C28007C444B /* index.html */; };
+		79DFAAD51F77BAF600A69208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFAAD31F77BAF600A69208 /* Main.storyboard */; };
+		79DFAAD71F77BB2500A69208 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DFAAD61F77BB2500A69208 /* Main_iPad.storyboard */; };
+		79DFAADA1F77BB9A00A69208 /* UIWebView+BSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DFAAD91F77BB9A00A69208 /* UIWebView+BSWebView.m */; };
+		79F880551F789275004E2B10 /* JXCacheURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F880541F789275004E2B10 /* JXCacheURLProtocol.m */; };
+		79F880581F7893A7004E2B10 /* CustomURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F880571F7893A7004E2B10 /* CustomURLCache.m */; };
+		79F8805D1F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8805A1F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.m */; };
+		79F8805E1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8805C1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.m */; };
+		E00940A0D4826BE77EAFAEAF /* libPods-BimSite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED32E78F211457D252FC79AA /* libPods-BimSite.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B83C7BA1F3F3D2C00181DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B83C7951F3F3D2C00181DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B83C79C1F3F3D2C00181DF5;
+			remoteInfo = BimSite;
+		};
+		1B83C7C51F3F3D2C00181DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B83C7951F3F3D2C00181DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B83C79C1F3F3D2C00181DF5;
+			remoteInfo = BimSite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B83C79D1F3F3D2C00181DF5 /* BimSite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BimSite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B83C7A11F3F3D2C00181DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B83C7A31F3F3D2C00181DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B83C7A41F3F3D2C00181DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B83C7AD1F3F3D2C00181DF5 /* BimSite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BimSite.xcdatamodel; sourceTree = "<group>"; };
+		1B83C7AF1F3F3D2C00181DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B83C7B21F3F3D2C00181DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B83C7B41F3F3D2C00181DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B83C7B91F3F3D2C00181DF5 /* BimSiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BimSiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B83C7BD1F3F3D2C00181DF5 /* BimSiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BimSiteTests.m; sourceTree = "<group>"; };
+		1B83C7BF1F3F3D2C00181DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B83C7C41F3F3D2C00181DF5 /* BimSiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BimSiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B83C7C81F3F3D2C00181DF5 /* BimSiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BimSiteUITests.m; sourceTree = "<group>"; };
+		1B83C7CA1F3F3D2C00181DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B83C7DB1F403CF700181DF5 /* BSIPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIPhoneViewController.h; sourceTree = "<group>"; };
+		1B83C7DC1F403CF700181DF5 /* BSIPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIPhoneViewController.m; sourceTree = "<group>"; };
+		1B83C7DE1F403D1F00181DF5 /* BSIPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIPadViewController.h; sourceTree = "<group>"; };
+		1B83C7DF1F403D1F00181DF5 /* BSIPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIPadViewController.m; sourceTree = "<group>"; };
+		1B83C7E11F40564100181DF5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1B83C7E21F40564100181DF5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1B83C7E81F405E7C00181DF5 /* UIColor+BSUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BSUIColor.h"; sourceTree = "<group>"; };
+		1B83C7E91F405E7C00181DF5 /* UIColor+BSUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BSUIColor.m"; sourceTree = "<group>"; };
+		1B83C7EB1F4097C300181DF5 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		1B83C7EC1F4097C300181DF5 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		1B83C7EE1F4097DC00181DF5 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		1B83C7EF1F4097DC00181DF5 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		1B83C7F11F40987C00181DF5 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		1B83C7F21F40987C00181DF5 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		1B83C7F41F41EB3400181DF5 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		1B83C7F61F41F9A300181DF5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1B83C7F71F41F9A300181DF5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1B83C7FA1F4349F400181DF5 /* APPDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPDefine.h; sourceTree = "<group>"; };
+		1B83C8621F4B409F00181DF5 /* CommonWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWebViewController.h; sourceTree = "<group>"; };
+		1B83C8631F4B409F00181DF5 /* CommonWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonWebViewController.m; sourceTree = "<group>"; };
+		1B845CAE1F7555FE00556A95 /* HSDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDownloadManager.h; sourceTree = "<group>"; };
+		1B845CAF1F7555FE00556A95 /* HSDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSDownloadManager.m; sourceTree = "<group>"; };
+		1B845CB01F7555FE00556A95 /* HSSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSessionModel.h; sourceTree = "<group>"; };
+		1B845CB11F7555FE00556A95 /* HSSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSessionModel.m; sourceTree = "<group>"; };
+		1B845CB31F7555FE00556A95 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		1B845CB41F7555FE00556A95 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		1BE9BDE11F762BB300CAB2AF /* GLCustomURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCustomURLCache.h; sourceTree = "<group>"; };
+		1BE9BDE21F762BB300CAB2AF /* GLCustomURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCustomURLCache.m; sourceTree = "<group>"; };
+		1BE9BDE41F762F7500CAB2AF /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		1BE9BDE51F762F7500CAB2AF /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		1BE9BDE71F7630C000CAB2AF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1BE9BDE81F7630C000CAB2AF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1BFB3EC81F4F23B700F13041 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1BFB3EC91F4F23B700F13041 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1BFB402B1F5081A000F13041 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1BFB402C1F5117CB00F13041 /* SoapClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapClientManager.h; sourceTree = "<group>"; };
+		1BFB402D1F5117CB00F13041 /* SoapClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapClientManager.m; sourceTree = "<group>"; };
+		1BFB402F1F51DD9D00F13041 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		1BFB40301F51DD9D00F13041 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		1BFB40321F5258ED00F13041 /* ResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultModel.h; sourceTree = "<group>"; };
+		1BFB40331F5258ED00F13041 /* ResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultModel.m; sourceTree = "<group>"; };
+		1BFB40351F525BF100F13041 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		1BFB40361F525BF100F13041 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		1BFB40381F52624800F13041 /* LoginResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResultModel.h; sourceTree = "<group>"; };
+		1BFB40391F52624800F13041 /* LoginResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResultModel.m; sourceTree = "<group>"; };
+		1BFB403B1F532C4E00F13041 /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		1BFB403C1F532C4E00F13041 /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		1BFB403F1F571FD700F13041 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		1BFB40401F571FD700F13041 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		1BFB404F1F5AB18200F13041 /* QrcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrcodeViewController.h; sourceTree = "<group>"; };
+		1BFB40501F5AB18200F13041 /* QrcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrcodeViewController.m; sourceTree = "<group>"; };
+		1BFB40521F5AFAEF00F13041 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		1BFB40531F5AFAEF00F13041 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		68194DE2E205B9BB201CA557 /* Pods-BimSite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BimSite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BimSite/Pods-BimSite.debug.xcconfig"; sourceTree = "<group>"; };
+		7938229E1FA01B77006F96E7 /* NSURLRequest+BimSite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+BimSite.h"; sourceTree = "<group>"; };
+		7938229F1FA01B77006F96E7 /* NSURLRequest+BimSite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+BimSite.m"; sourceTree = "<group>"; };
+		794336801FDA79370041D247 /* Android_3DAir.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Android_3DAir.zip; sourceTree = "<group>"; };
+		794D0FB41F77B4F600BD44F2 /* ChangeUserSendData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeUserSendData.h; sourceTree = "<group>"; };
+		794D0FB51F77B4F600BD44F2 /* ChangeUserSendData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeUserSendData.m; sourceTree = "<group>"; };
+		7966F4531F774EED00511E4A /* TodoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoModel.h; sourceTree = "<group>"; };
+		7966F4541F774EED00511E4A /* TodoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoModel.m; sourceTree = "<group>"; };
+		7987E40B1F94DB0300A0753B /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		7987E40C1F94DB0300A0753B /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		79CE83D01F987DEE0059A4DF /* localimg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = localimg; sourceTree = "<group>"; };
+		79D18C9E1F8F8C28007C444B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		79DFAAD41F77BAF600A69208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79DFAAD61F77BB2500A69208 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		79DFAAD81F77BB9A00A69208 /* UIWebView+BSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+BSWebView.h"; sourceTree = "<group>"; };
+		79DFAAD91F77BB9A00A69208 /* UIWebView+BSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+BSWebView.m"; sourceTree = "<group>"; };
+		79F880531F789275004E2B10 /* JXCacheURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCacheURLProtocol.h; sourceTree = "<group>"; };
+		79F880541F789275004E2B10 /* JXCacheURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCacheURLProtocol.m; sourceTree = "<group>"; };
+		79F880561F7893A7004E2B10 /* CustomURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomURLCache.h; sourceTree = "<group>"; };
+		79F880571F7893A7004E2B10 /* CustomURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomURLCache.m; sourceTree = "<group>"; };
+		79F880591F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dismis_FileUploadPanel.h"; sourceTree = "<group>"; };
+		79F8805A1F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dismis_FileUploadPanel.m"; sourceTree = "<group>"; };
+		79F8805B1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Intercept_FileUploadPane.h"; sourceTree = "<group>"; };
+		79F8805C1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Intercept_FileUploadPane.m"; sourceTree = "<group>"; };
+		C19B41883C8A046FCCC3A73D /* Pods-BimSite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BimSite.release.xcconfig"; path = "Pods/Target Support Files/Pods-BimSite/Pods-BimSite.release.xcconfig"; sourceTree = "<group>"; };
+		ED32E78F211457D252FC79AA /* libPods-BimSite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BimSite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B83C79A1F3F3D2C00181DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00940A0D4826BE77EAFAEAF /* libPods-BimSite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B83C7B61F3F3D2C00181DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B83C7C11F3F3D2C00181DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B83C7941F3F3D2C00181DF5 = {
+			isa = PBXGroup;
+			children = (
+				1BFB402B1F5081A000F13041 /* Podfile */,
+				1B83C79F1F3F3D2C00181DF5 /* BimSite */,
+				1B83C7BC1F3F3D2C00181DF5 /* BimSiteTests */,
+				1B83C7C71F3F3D2C00181DF5 /* BimSiteUITests */,
+				1B83C79E1F3F3D2C00181DF5 /* Products */,
+				CA1FEF30060097BAF30C2227 /* Pods */,
+				5E6D4C1803841C5F0FEE0281 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B83C79E1F3F3D2C00181DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C79D1F3F3D2C00181DF5 /* BimSite.app */,
+				1B83C7B91F3F3D2C00181DF5 /* BimSiteTests.xctest */,
+				1B83C7C41F3F3D2C00181DF5 /* BimSiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B83C79F1F3F3D2C00181DF5 /* BimSite */ = {
+			isa = PBXGroup;
+			children = (
+				79CE83D01F987DEE0059A4DF /* localimg */,
+				1BE9BDDD1F762AE700CAB2AF /* Extensions */,
+				1B845CAD1F7555FE00556A95 /* HSDownloadManager */,
+				1BFB403E1F571E4E00F13041 /* Service */,
+				1BFB3ECB1F4F2E9700F13041 /* Model */,
+				1BFB0C8B1F4D954200B4CF0C /* Html */,
+				1B83C7F91F4349BF00181DF5 /* Macros */,
+				1B83C7E41F405B5A00181DF5 /* Base */,
+				1B83C7DA1F403ACC00181DF5 /* Controller */,
+				1B83C7D81F3FE8B000181DF5 /* UI */,
+				1B83C7A31F3F3D2C00181DF5 /* AppDelegate.h */,
+				1B83C7A41F3F3D2C00181DF5 /* AppDelegate.m */,
+				1B83C7AF1F3F3D2C00181DF5 /* Assets.xcassets */,
+				1B83C7B11F3F3D2C00181DF5 /* LaunchScreen.storyboard */,
+				1B83C7B41F3F3D2C00181DF5 /* Info.plist */,
+				1B83C7AC1F3F3D2C00181DF5 /* BimSite.xcdatamodeld */,
+				1B83C7A01F3F3D2C00181DF5 /* Supporting Files */,
+			);
+			path = BimSite;
+			sourceTree = "<group>";
+		};
+		1B83C7A01F3F3D2C00181DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7A11F3F3D2C00181DF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B83C7BC1F3F3D2C00181DF5 /* BimSiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7BD1F3F3D2C00181DF5 /* BimSiteTests.m */,
+				1B83C7BF1F3F3D2C00181DF5 /* Info.plist */,
+			);
+			path = BimSiteTests;
+			sourceTree = "<group>";
+		};
+		1B83C7C71F3F3D2C00181DF5 /* BimSiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7C81F3F3D2C00181DF5 /* BimSiteUITests.m */,
+				1B83C7CA1F3F3D2C00181DF5 /* Info.plist */,
+			);
+			path = BimSiteUITests;
+			sourceTree = "<group>";
+		};
+		1B83C7D81F3FE8B000181DF5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7D91F3FE8D600181DF5 /* Storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1B83C7D91F3FE8D600181DF5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				79DFAAD61F77BB2500A69208 /* Main_iPad.storyboard */,
+				79DFAAD31F77BAF600A69208 /* Main.storyboard */,
+				1B83C7F41F41EB3400181DF5 /* Login.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		1B83C7DA1F403ACC00181DF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7DB1F403CF700181DF5 /* BSIPhoneViewController.h */,
+				1B83C7DC1F403CF700181DF5 /* BSIPhoneViewController.m */,
+				1B83C7DE1F403D1F00181DF5 /* BSIPadViewController.h */,
+				1B83C7DF1F403D1F00181DF5 /* BSIPadViewController.m */,
+				1B83C7E11F40564100181DF5 /* HomeViewController.h */,
+				1B83C7E21F40564100181DF5 /* HomeViewController.m */,
+				1B83C7EB1F4097C300181DF5 /* ModelViewController.h */,
+				1B83C7EC1F4097C300181DF5 /* ModelViewController.m */,
+				1B83C7EE1F4097DC00181DF5 /* QueryViewController.h */,
+				1B83C7EF1F4097DC00181DF5 /* QueryViewController.m */,
+				1B83C7F11F40987C00181DF5 /* SettingViewController.h */,
+				1B83C7F21F40987C00181DF5 /* SettingViewController.m */,
+				1B83C7F61F41F9A300181DF5 /* LoginViewController.h */,
+				1B83C7F71F41F9A300181DF5 /* LoginViewController.m */,
+				1B83C8621F4B409F00181DF5 /* CommonWebViewController.h */,
+				1B83C8631F4B409F00181DF5 /* CommonWebViewController.m */,
+				1BFB3EC81F4F23B700F13041 /* AboutViewController.h */,
+				1BFB3EC91F4F23B700F13041 /* AboutViewController.m */,
+				1BFB404F1F5AB18200F13041 /* QrcodeViewController.h */,
+				1BFB40501F5AB18200F13041 /* QrcodeViewController.m */,
+				1BFB40521F5AFAEF00F13041 /* LaunchViewController.h */,
+				1BFB40531F5AFAEF00F13041 /* LaunchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B83C7E41F405B5A00181DF5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7E81F405E7C00181DF5 /* UIColor+BSUIColor.h */,
+				1B83C7E91F405E7C00181DF5 /* UIColor+BSUIColor.m */,
+				1BFB402C1F5117CB00F13041 /* SoapClientManager.h */,
+				1BFB402D1F5117CB00F13041 /* SoapClientManager.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1B83C7F91F4349BF00181DF5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1B83C7FA1F4349F400181DF5 /* APPDefine.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		1B845CAD1F7555FE00556A95 /* HSDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				1B845CAE1F7555FE00556A95 /* HSDownloadManager.h */,
+				1B845CAF1F7555FE00556A95 /* HSDownloadManager.m */,
+				1B845CB01F7555FE00556A95 /* HSSessionModel.h */,
+				1B845CB11F7555FE00556A95 /* HSSessionModel.m */,
+				1B845CB21F7555FE00556A95 /* MD5 */,
+			);
+			path = HSDownloadManager;
+			sourceTree = "<group>";
+		};
+		1B845CB21F7555FE00556A95 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				1B845CB31F7555FE00556A95 /* NSString+Hash.h */,
+				1B845CB41F7555FE00556A95 /* NSString+Hash.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		1BE9BDDD1F762AE700CAB2AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79F880591F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.h */,
+				79F8805A1F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.m */,
+				79F8805B1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.h */,
+				79F8805C1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.m */,
+				79F880561F7893A7004E2B10 /* CustomURLCache.h */,
+				79F880571F7893A7004E2B10 /* CustomURLCache.m */,
+				79F880531F789275004E2B10 /* JXCacheURLProtocol.h */,
+				79F880541F789275004E2B10 /* JXCacheURLProtocol.m */,
+				79DFAAD81F77BB9A00A69208 /* UIWebView+BSWebView.h */,
+				79DFAAD91F77BB9A00A69208 /* UIWebView+BSWebView.m */,
+				1BE9BDE71F7630C000CAB2AF /* Reachability.h */,
+				1BE9BDE81F7630C000CAB2AF /* Reachability.m */,
+				1BE9BDE41F762F7500CAB2AF /* Util.h */,
+				1BE9BDE51F762F7500CAB2AF /* Util.m */,
+				1BE9BDE11F762BB300CAB2AF /* GLCustomURLCache.h */,
+				1BE9BDE21F762BB300CAB2AF /* GLCustomURLCache.m */,
+				7938229E1FA01B77006F96E7 /* NSURLRequest+BimSite.h */,
+				7938229F1FA01B77006F96E7 /* NSURLRequest+BimSite.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BFB0C8B1F4D954200B4CF0C /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				794336801FDA79370041D247 /* Android_3DAir.zip */,
+				79D18C9E1F8F8C28007C444B /* index.html */,
+			);
+			name = Html;
+			sourceTree = "<group>";
+		};
+		1BFB3ECB1F4F2E9700F13041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB402F1F51DD9D00F13041 /* BaseModel.h */,
+				1BFB40301F51DD9D00F13041 /* BaseModel.m */,
+				1BFB40321F5258ED00F13041 /* ResultModel.h */,
+				1BFB40331F5258ED00F13041 /* ResultModel.m */,
+				1BFB40351F525BF100F13041 /* UserInfoModel.h */,
+				1BFB40361F525BF100F13041 /* UserInfoModel.m */,
+				1BFB40381F52624800F13041 /* LoginResultModel.h */,
+				1BFB40391F52624800F13041 /* LoginResultModel.m */,
+				1BFB403B1F532C4E00F13041 /* AppModel.h */,
+				1BFB403C1F532C4E00F13041 /* AppModel.m */,
+				7966F4531F774EED00511E4A /* TodoModel.h */,
+				7966F4541F774EED00511E4A /* TodoModel.m */,
+				794D0FB41F77B4F600BD44F2 /* ChangeUserSendData.h */,
+				794D0FB51F77B4F600BD44F2 /* ChangeUserSendData.m */,
+				7987E40B1F94DB0300A0753B /* UserInfo.h */,
+				7987E40C1F94DB0300A0753B /* UserInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1BFB403E1F571E4E00F13041 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB403F1F571FD700F13041 /* UserService.h */,
+				1BFB40401F571FD700F13041 /* UserService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		5E6D4C1803841C5F0FEE0281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED32E78F211457D252FC79AA /* libPods-BimSite.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1FEF30060097BAF30C2227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68194DE2E205B9BB201CA557 /* Pods-BimSite.debug.xcconfig */,
+				C19B41883C8A046FCCC3A73D /* Pods-BimSite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B83C79C1F3F3D2C00181DF5 /* BimSite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B83C7CD1F3F3D2C00181DF5 /* Build configuration list for PBXNativeTarget "BimSite" */;
+			buildPhases = (
+				8626C05DE671303ECBD187E2 /* [CP] Check Pods Manifest.lock */,
+				1B83C7991F3F3D2C00181DF5 /* Sources */,
+				1B83C79A1F3F3D2C00181DF5 /* Frameworks */,
+				1B83C79B1F3F3D2C00181DF5 /* Resources */,
+				4197DCA9A765FA525ADCBC5B /* [CP] Embed Pods Frameworks */,
+				731FFEC691C5C19148B52407 /* [CP] Copy Pods Resources */,
+				7942F8AB1FB2E000002060E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BimSite;
+			productName = BimSite;
+			productReference = 1B83C79D1F3F3D2C00181DF5 /* BimSite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B83C7B81F3F3D2C00181DF5 /* BimSiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B83C7D01F3F3D2C00181DF5 /* Build configuration list for PBXNativeTarget "BimSiteTests" */;
+			buildPhases = (
+				1B83C7B51F3F3D2C00181DF5 /* Sources */,
+				1B83C7B61F3F3D2C00181DF5 /* Frameworks */,
+				1B83C7B71F3F3D2C00181DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B83C7BB1F3F3D2C00181DF5 /* PBXTargetDependency */,
+			);
+			name = BimSiteTests;
+			productName = BimSiteTests;
+			productReference = 1B83C7B91F3F3D2C00181DF5 /* BimSiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B83C7C31F3F3D2C00181DF5 /* BimSiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B83C7D31F3F3D2C00181DF5 /* Build configuration list for PBXNativeTarget "BimSiteUITests" */;
+			buildPhases = (
+				1B83C7C01F3F3D2C00181DF5 /* Sources */,
+				1B83C7C11F3F3D2C00181DF5 /* Frameworks */,
+				1B83C7C21F3F3D2C00181DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B83C7C61F3F3D2C00181DF5 /* PBXTargetDependency */,
+			);
+			name = BimSiteUITests;
+			productName = BimSiteUITests;
+			productReference = 1B83C7C41F3F3D2C00181DF5 /* BimSiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B83C7951F3F3D2C00181DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "成都慧视康科技有限公司";
+				TargetAttributes = {
+					1B83C79C1F3F3D2C00181DF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8VVN4H4537;
+						ProvisioningStyle = Manual;
+					};
+					1B83C7B81F3F3D2C00181DF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7X5HG2Q452;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B83C79C1F3F3D2C00181DF5;
+					};
+					1B83C7C31F3F3D2C00181DF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7X5HG2Q452;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B83C79C1F3F3D2C00181DF5;
+					};
+				};
+			};
+			buildConfigurationList = 1B83C7981F3F3D2C00181DF5 /* Build configuration list for PBXProject "BimSite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 1B83C7941F3F3D2C00181DF5;
+			productRefGroup = 1B83C79E1F3F3D2C00181DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B83C79C1F3F3D2C00181DF5 /* BimSite */,
+				1B83C7B81F3F3D2C00181DF5 /* BimSiteTests */,
+				1B83C7C31F3F3D2C00181DF5 /* BimSiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B83C79B1F3F3D2C00181DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CE83D11F987DEE0059A4DF /* localimg in Resources */,
+				79D18C9F1F8F8C28007C444B /* index.html in Resources */,
+				79DFAAD71F77BB2500A69208 /* Main_iPad.storyboard in Resources */,
+				1B83C7B31F3F3D2C00181DF5 /* LaunchScreen.storyboard in Resources */,
+				79DFAAD51F77BAF600A69208 /* Main.storyboard in Resources */,
+				794336811FDA79370041D247 /* Android_3DAir.zip in Resources */,
+				1B83C7B01F3F3D2C00181DF5 /* Assets.xcassets in Resources */,
+				1B83C7F51F41EB3400181DF5 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B83C7B71F3F3D2C00181DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B83C7C21F3F3D2C00181DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4197DCA9A765FA525ADCBC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BimSite/Pods-BimSite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731FFEC691C5C19148B52407 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BimSite/Pods-BimSite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7942F8AB1FB2E000002060E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"3107bf42ce\"\n# #\nBUGLY_APP_KEY=\"a1c03ba6-5b39-49e2-b468-e2f31c4523aa\"\n# #\nBUNDLE_IDENTIFIER=\"com.simu-tech.simubimsite\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi";
+		};
+		8626C05DE671303ECBD187E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B83C7991F3F3D2C00181DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B845CB51F7555FE00556A95 /* HSDownloadManager.m in Sources */,
+				7966F4551F774EED00511E4A /* TodoModel.m in Sources */,
+				1B83C7ED1F4097C300181DF5 /* ModelViewController.m in Sources */,
+				1BE9BDE31F762BB300CAB2AF /* GLCustomURLCache.m in Sources */,
+				79F880581F7893A7004E2B10 /* CustomURLCache.m in Sources */,
+				1BFB40371F525BF100F13041 /* UserInfoModel.m in Sources */,
+				1B845CB61F7555FE00556A95 /* HSSessionModel.m in Sources */,
+				1BFB40541F5AFAEF00F13041 /* LaunchViewController.m in Sources */,
+				1B83C7AE1F3F3D2C00181DF5 /* BimSite.xcdatamodeld in Sources */,
+				793822A01FA01B77006F96E7 /* NSURLRequest+BimSite.m in Sources */,
+				1B83C7F01F4097DC00181DF5 /* QueryViewController.m in Sources */,
+				1BFB40411F571FD700F13041 /* UserService.m in Sources */,
+				79F880551F789275004E2B10 /* JXCacheURLProtocol.m in Sources */,
+				1BFB40511F5AB18200F13041 /* QrcodeViewController.m in Sources */,
+				1BE9BDE91F7630C000CAB2AF /* Reachability.m in Sources */,
+				1BFB403A1F52624800F13041 /* LoginResultModel.m in Sources */,
+				1BFB40311F51DD9D00F13041 /* BaseModel.m in Sources */,
+				1B83C7DD1F403CF700181DF5 /* BSIPhoneViewController.m in Sources */,
+				1B83C7E01F403D1F00181DF5 /* BSIPadViewController.m in Sources */,
+				1BFB402E1F5117CB00F13041 /* SoapClientManager.m in Sources */,
+				1B83C7A51F3F3D2C00181DF5 /* AppDelegate.m in Sources */,
+				79F8805E1F78ABAE004E2B10 /* UIViewController+Intercept_FileUploadPane.m in Sources */,
+				1BFB403D1F532C4E00F13041 /* AppModel.m in Sources */,
+				1BE9BDE61F762F7500CAB2AF /* Util.m in Sources */,
+				794D0FB61F77B4F600BD44F2 /* ChangeUserSendData.m in Sources */,
+				79F8805D1F78ABAE004E2B10 /* UIViewController+Dismis_FileUploadPanel.m in Sources */,
+				1B83C7EA1F405E7C00181DF5 /* UIColor+BSUIColor.m in Sources */,
+				79DFAADA1F77BB9A00A69208 /* UIWebView+BSWebView.m in Sources */,
+				1B83C7A21F3F3D2C00181DF5 /* main.m in Sources */,
+				7987E40D1F94DB0300A0753B /* UserInfo.m in Sources */,
+				1B845CB71F7555FE00556A95 /* NSString+Hash.m in Sources */,
+				1B83C7E31F40564100181DF5 /* HomeViewController.m in Sources */,
+				1BFB3ECA1F4F23B700F13041 /* AboutViewController.m in Sources */,
+				1BFB40341F5258EE00F13041 /* ResultModel.m in Sources */,
+				1B83C7F81F41F9A300181DF5 /* LoginViewController.m in Sources */,
+				1B83C8641F4B409F00181DF5 /* CommonWebViewController.m in Sources */,
+				1B83C7F31F40987C00181DF5 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B83C7B51F3F3D2C00181DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B83C7BE1F3F3D2C00181DF5 /* BimSiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B83C7C01F3F3D2C00181DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B83C7C91F3F3D2C00181DF5 /* BimSiteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B83C7BB1F3F3D2C00181DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B83C79C1F3F3D2C00181DF5 /* BimSite */;
+			targetProxy = 1B83C7BA1F3F3D2C00181DF5 /* PBXContainerItemProxy */;
+		};
+		1B83C7C61F3F3D2C00181DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B83C79C1F3F3D2C00181DF5 /* BimSite */;
+			targetProxy = 1B83C7C51F3F3D2C00181DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B83C7B11F3F3D2C00181DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B83C7B21F3F3D2C00181DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		79DFAAD31F77BAF600A69208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DFAAD41F77BAF600A69208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B83C7CB1F3F3D2C00181DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B83C7CC1F3F3D2C00181DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B83C7CE1F3F3D2C00181DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68194DE2E205B9BB201CA557 /* Pods-BimSite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8VVN4H4537;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BimSite/ExtraLib",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/Alipay",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Rong_Cloud_iOS_SDK",
+				);
+				INFOPLIST_FILE = BimSite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/Alipay",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/UnionPay",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/Wx",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Rong_Cloud_iOS_SDK",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK/UMSocial_Sdk_5.2.1",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simu-tech.simubimsite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fccf274e-81d3-44a1-9ec3-f37e78bb35c2";
+				PROVISIONING_PROFILE_SPECIFIER = SimuBimSite_Dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B83C7CF1F3F3D2C00181DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19B41883C8A046FCCC3A73D /* Pods-BimSite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8VVN4H4537;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BimSite/ExtraLib",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/Alipay",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Rong_Cloud_iOS_SDK",
+				);
+				INFOPLIST_FILE = BimSite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/Alipay",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/UnionPay",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp/Channels/Wx",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Pingpp",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Rong_Cloud_iOS_SDK",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK/UMSocial_Sdk_5.2.1",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/BimSite/ExtraLib/iphoneossm/Umeng_SDK/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simu-tech.simubimsite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a45ef09-eb47-4716-ae1e-2f61e1ee306b";
+				PROVISIONING_PROFILE_SPECIFIER = SimuBimSite_App;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B83C7D11F3F3D2C00181DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X5HG2Q452;
+				INFOPLIST_FILE = BimSiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simu-tech.BimSiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BimSite.app/BimSite";
+			};
+			name = Debug;
+		};
+		1B83C7D21F3F3D2C00181DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X5HG2Q452;
+				INFOPLIST_FILE = BimSiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simu-tech.BimSiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BimSite.app/BimSite";
+			};
+			name = Release;
+		};
+		1B83C7D41F3F3D2C00181DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X5HG2Q452;
+				INFOPLIST_FILE = BimSiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simu-tech.BimSiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BimSite;
+			};
+			name = Debug;
+		};
+		1B83C7D51F3F3D2C00181DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X5HG2Q452;
+				INFOPLIST_FILE = BimSiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simu-tech.BimSiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BimSite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B83C7981F3F3D2C00181DF5 /* Build configuration list for PBXProject "BimSite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B83C7CB1F3F3D2C00181DF5 /* Debug */,
+				1B83C7CC1F3F3D2C00181DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B83C7CD1F3F3D2C00181DF5 /* Build configuration list for PBXNativeTarget "BimSite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B83C7CE1F3F3D2C00181DF5 /* Debug */,
+				1B83C7CF1F3F3D2C00181DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B83C7D01F3F3D2C00181DF5 /* Build configuration list for PBXNativeTarget "BimSiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B83C7D11F3F3D2C00181DF5 /* Debug */,
+				1B83C7D21F3F3D2C00181DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B83C7D31F3F3D2C00181DF5 /* Build configuration list for PBXNativeTarget "BimSiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B83C7D41F3F3D2C00181DF5 /* Debug */,
+				1B83C7D51F3F3D2C00181DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B83C7AC1F3F3D2C00181DF5 /* BimSite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B83C7AD1F3F3D2C00181DF5 /* BimSite.xcdatamodel */,
+			);
+			currentVersion = 1B83C7AD1F3F3D2C00181DF5 /* BimSite.xcdatamodel */;
+			path = BimSite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B83C7951F3F3D2C00181DF5 /* Project object */;
+}

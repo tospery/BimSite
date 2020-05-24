@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZWo-CK-7z2"/>
+                        <viewControllerLayoutGuide type="bottom" id="y7M-JF-FHD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="idi-Bj-CoV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="idi-Bj-CoV" secondAttribute="height" multiplier="1:1" id="ZB4-aw-Efd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BimSite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9o-X5-1ou">
+                                <rect key="frame" x="102.5" y="328" width="115" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="让项目管理更简单、更快捷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mn-eD-haP">
+                                <rect key="frame" x="50" y="389.5" width="220.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright  2017 BIMsite All Rights Reserved Powered by simu-tech" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mz6-bd-2iX">
+                                <rect key="frame" x="0.0" y="496.5" width="320" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29411764709999999" green="0.4941176471" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mz6-bd-2iX" secondAttribute="trailing" id="0Lu-KL-TFS"/>
+                            <constraint firstItem="y9o-X5-1ou" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AVt-L7-GIR"/>
+                            <constraint firstItem="4mn-eD-haP" firstAttribute="top" secondItem="y9o-X5-1ou" secondAttribute="bottom" constant="20" id="GNK-qE-Dh8"/>
+                            <constraint firstItem="idi-Bj-CoV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="LjS-3V-sNi"/>
+                            <constraint firstItem="mz6-bd-2iX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Xck-EV-xLw"/>
+                            <constraint firstItem="4mn-eD-haP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dcH-XB-cti"/>
+                            <constraint firstAttribute="trailing" secondItem="idi-Bj-CoV" secondAttribute="trailing" id="fv5-0Y-AIE"/>
+                            <constraint firstItem="y7M-JF-FHD" firstAttribute="top" secondItem="mz6-bd-2iX" secondAttribute="bottom" constant="40" id="i4N-6f-cMP"/>
+                            <constraint firstItem="idi-Bj-CoV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="mhM-LB-sVZ"/>
+                            <constraint firstItem="y9o-X5-1ou" firstAttribute="top" secondItem="idi-Bj-CoV" secondAttribute="bottom" constant="8" id="zRu-WD-aFl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.5" y="416.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="375" height="375"/>
+    </resources>
+</document>
